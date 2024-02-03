@@ -1,0 +1,33 @@
+.search-container {
+    background-color: #202327;
+    display: flex;
+    position: relative;
+    width: 350px;
+    height: 42px;
+    top: 6px;
+    padding: 0px, 181px, 0px, 0px;
+    border-radius: 42px;
+}
+.search-icon {
+    position: relative;
+    top: 7px;
+    left: 12px;
+    padding: 1.5px, 1.69px, 1.69px, 1.5px;
+}
+.search input {
+    position: relative;
+    background-color: #202327;
+    width: 258px;
+    left: 30px;
+    top: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+}
+.search input[type="text"] {
+    font-weight: 600;
+    border: none;
+    outline: none;
+}

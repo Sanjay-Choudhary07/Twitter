@@ -1,0 +1,103 @@
+.image-div img{
+  width: 45px;
+  height: 45px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.tweet-container{
+  color: white;
+  padding: 5px;
+}
+.user-detail {
+  display: flex;
+  width: 345px;
+}
+.tweets{
+  display: flex;
+  height: 105px;
+  border: 1px solid #2F3336;
+  padding: 10px;
+}
+.user-detail .name{
+  padding-left: 10px;
+  /* font-weight: 400; */
+  line-height: 14.32px;
+}
+.user-detail .blue-tick{
+  width: 18px;
+  height: 18px;
+  position: relative;
+  left: -4px;
+  top: -2px;
+}
+.user-detail .user-id{
+  color: #687684;
+  position: relative;
+  top: -2px;
+}
+.dot{
+  position: relative;
+  left: 6px;
+  top: -2px;
+  color: #687684;
+}
+ .date{
+  position: relative;
+  top: -2px;
+  left: 12px;
+  color: #687684;
+}
+.tweet-content {
+  padding-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  color: #72767A;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.btn{
+  padding-left: 9rem;
+}
+
+ .comment{
+  width: 15px;
+  height: 14.51px;
+  padding-left: 10px;
+  display: flex;
+  font-size: 12px;
+  line-height: 14.32px;
+  letter-spacing: -0.3px;
+
+}
+ .retweet{
+  width: 15px;
+  height: 14.51px;
+  display: flex;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 14.32px;
+  letter-spacing: -0.3px;
+}
+ .like{
+  width: 15px;
+  height: 14.51px;
+  display: flex;   
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 14.32px;
+  letter-spacing: -0.3px;
+}
+ .share{
+  width: 15px;
+  height: 14.51px;
+  display: flex; 
+  padding-right: 80px;
+  font-size: 12px;
+  line-height: 14.32px;
+  letter-spacing: -0.3px;
+}

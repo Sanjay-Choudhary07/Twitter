@@ -1,0 +1,10 @@
+.right{
+    position: relative;
+    width: 360px;
+    left: 305px; 
+}
+@media only screen and (max-width: 1004px){
+    .right{
+        display: none;
+    }
+}

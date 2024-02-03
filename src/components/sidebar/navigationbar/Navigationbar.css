@@ -1,0 +1,56 @@
+.sidebar {
+  width: 251px;
+  height: 398px;
+  top: 4px;
+  gap: 5px;
+  position: relative;
+  padding: 6px;
+}
+.sidebar-icons {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  padding: 14px;
+  transition: background-color 0.2s;
+}
+.sidebar-icons a {
+  text-decoration: none;
+}
+.sidebar-icons:hover {
+  background-color: rgba(29, 161, 242, 0.1);
+}
+.colored-image {
+  margin-right: 20px;
+  filter: invert(1);
+  /* Invert icon color to white */
+  vertical-align: middle;
+}
+.icon-text {
+  font-size: 19px;
+  font-weight: 400;
+  color: white;
+}
+.tweet-button-container{
+  height: 150px;
+}
+.tweet-button {
+  background-color: #1da1f2;
+  width: 225px;
+  height: 52px;
+  font-weight: 700;
+  top: 60px;
+  padding: 16px, 0px, 16px, 0px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 52px;
+  position: relative;
+  font-size: 18px;
+}
+.tweet-button:hover {
+  background-color: #0d86c9;
+}
+.notification {
+  position: absolute;
+  bottom: 200px;
+  left: 31px;
+}

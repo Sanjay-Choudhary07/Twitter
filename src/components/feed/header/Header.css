@@ -1,0 +1,32 @@
+.header {
+  width: 600px;
+  height: 76px;
+  border-bottom: 1px solid #2f3336;
+  position: relative;
+}
+.title {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  padding: 13px 344px 18px 18px;
+}
+.nav-tab {
+  width: auto;
+  display: flex;
+  padding: 0px 84px 0px 65px;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: SF Pro Text;
+  line-height: 16.71px;
+  letter-spacing: -0.3px;
+}
+.nav-tab span a {
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 4px solid #4A98E9;
+  color: white;
+}
